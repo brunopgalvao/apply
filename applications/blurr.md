@@ -44,7 +44,7 @@ Solidity/PVM work e.g. precompiles, cross-chain interactions using Solidity, thi
 
 ### Are there any other projects similar to yours in the Polkadot/Kusama ecosystem?
 
-There is a forked version of REMIX IDE exists a.k.a. https://remix.polkadot.io however we still see a benefit of starting 
+There is a forked version of REMIX IDE exists a.k.a. https://remix.polkadot.io however there is still a benefit of starting 
 to code one from scratch specifically for Polkadot. Especially, in the future, when we start hitting the "Polkadot-only" features 
 e.g. precompiles into Substrate's runtime, cross-chain use cases, and possible interoperability with JAM.
 
