@@ -6,10 +6,6 @@ blurr is a UI for developing and deploying PVM-based Solidity smart contracts to
 
 Think "a production-ready MVP of [REMIX IDE](https://remix.ethereum.org)" but coded from the ground up for Polkadot.
 
-We are aware that a forked version of REMIX IDE exists a.k.a. https://remix.polkadot.io however we still see a benefit of starting 
-to code one from scratch specifically for Polkadot. Especially, in the future, when we start hitting the "Polkadot-only" features 
-e.g. precompiles into Substrate's runtime, cross-chain use cases, and possible interoperability with JAM.
-
 The success of this project will allow us to continue adding useful features for the Polkadot community according to the Polkadot roadmap.
 
 ### Project Details
@@ -29,25 +25,33 @@ TODO
 Help us locate your project in the Polkadot/Kusama landscape and what problems it tries to solve by answering each of these questions:
 
 - Where and how does your project fit into the ecosystem?
+
 Developing and deploying Solidity smart contracts to pallet revive compatible blockchains will be critical once this becomes possible on Polkadot Hub.
 
-
 - Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
+
 The target audience will be Polkadot dApp developers.
 
 - What need(s) does your project meet?
+
 This project will allow for the development and deployment of Solidity smart contracts to Polkadot.
 
 - How did you identify these needs? Please provide evidence in the form of (scientific) articles, forum discussions, case studies, or raw data.
+
 In line with Parity's work to go live with Solidity smart contracts, this tool will also be ready so that, as Parity and the ecosystem, continue 
 Solidity/PVM work e.g. precompiles, cross-chain interactions using Solidity, this tool will already have the foundation to develop in tandem.
 
 
 - Are there any other projects similar to yours in the Polkadot/Kusama ecosystem?
+
+We are aware that a forked version of REMIX IDE exists a.k.a. https://remix.polkadot.io however we still see a benefit of starting 
+to code one from scratch specifically for Polkadot. Especially, in the future, when we start hitting the "Polkadot-only" features 
+e.g. precompiles into Substrate's runtime, cross-chain use cases, and possible interoperability with JAM.
+
 There is https://remix.polkadot.io which has its limitations because there are services in this forked version of REMIX that are not compatible 
 with Polkadot e.g. in Polkadot we use DOT and not Wei/Ether
 
-A list of known issues in https://contracts.polkadot.io can be found here: 
+A list of known issues with the forked "Polkadot" REMIX can be found here: 
 - https://contracts.polkadot.io/known_issues#remix
 
 ## Team
@@ -101,7 +105,7 @@ This section should break the development roadmap down into milestones and deliv
 ### Overview
 
 - **Estimated Duration:** 3 months
-- **Full-Time Equivalent (FTE):** 3 FTE
+- **Full-Time Equivalent (FTE):** 2 FTE
 - **Total Costs:** 30,000 USD
 
 > Note that deliverables 0a to 0e are mandatory. Please adapt their specification to your project.
@@ -127,8 +131,7 @@ This section should break the development roadmap down into milestones and deliv
 
 | Category | Item | Cost | Amount | Total | Description |
 | --- | ---- | --- | --- | --- | ---|
-| Personell | Technical Architect | 10,000 USD | 1 FTE | 10,000 USD | leading project with tech architecture and design |
-| Personell | Software Developer | 10,000 USD | 2 FTE | 20,000 USD | focused on execution and implementation |
+| Personell | Technical Architect | 15,000 USD | 2 FTE | 30,000 USD | leading project with tech architecture and design |
 | --- | --- | --- | **Total** | **30,000 USD** |  |
 
 
